@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		41D872DB1E1BEEE000A0C171 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D872DA1E1BEEE000A0C171 /* main.m */; };
-		41D872DE1E1BEEE000A0C171 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D872DD1E1BEEE000A0C171 /* AppDelegate.m */; };
-		41D872E11E1BEEE000A0C171 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D872E01E1BEEE000A0C171 /* ViewController.m */; };
 		41D872E41E1BEEE000A0C171 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41D872E21E1BEEE000A0C171 /* Main.storyboard */; };
 		41D872E61E1BEEE000A0C171 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41D872E51E1BEEE000A0C171 /* Assets.xcassets */; };
 		41D872E91E1BEEE000A0C171 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41D872E71E1BEEE000A0C171 /* LaunchScreen.storyboard */; };
 		41D872F41E1BEEE000A0C171 /* _03__baisibudejieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D872F31E1BEEE000A0C171 /* _03__baisibudejieUITests.m */; };
+		41D873171E1BF16A00A0C171 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D873111E1BF16A00A0C171 /* AppDelegate.m */; };
+		41D873181E1BF16A00A0C171 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D873121E1BF16A00A0C171 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,10 +29,6 @@
 /* Begin PBXFileReference section */
 		41D872D61E1BEEE000A0C171 /* 103--baisibudejie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "103--baisibudejie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41D872DA1E1BEEE000A0C171 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		41D872DC1E1BEEE000A0C171 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		41D872DD1E1BEEE000A0C171 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		41D872DF1E1BEEE000A0C171 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		41D872E01E1BEEE000A0C171 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		41D872E31E1BEEE000A0C171 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		41D872E51E1BEEE000A0C171 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41D872E81E1BEEE000A0C171 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,6 +36,9 @@
 		41D872EF1E1BEEE000A0C171 /* 103--baisibudejieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "103--baisibudejieUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41D872F31E1BEEE000A0C171 /* _03__baisibudejieUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _03__baisibudejieUITests.m; sourceTree = "<group>"; };
 		41D872F51E1BEEE000A0C171 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41D873101E1BF16A00A0C171 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		41D873111E1BF16A00A0C171 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		41D873121E1BF16A00A0C171 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +80,7 @@
 		41D872D81E1BEEE000A0C171 /* 103--baisibudejie */ = {
 			isa = PBXGroup;
 			children = (
-				41D872DC1E1BEEE000A0C171 /* AppDelegate.h */,
-				41D872DD1E1BEEE000A0C171 /* AppDelegate.m */,
-				41D872DF1E1BEEE000A0C171 /* ViewController.h */,
-				41D872E01E1BEEE000A0C171 /* ViewController.m */,
+				41D872FE1E1BF16A00A0C171 /* Classes */,
 				41D872E21E1BEEE000A0C171 /* Main.storyboard */,
 				41D872E51E1BEEE000A0C171 /* Assets.xcassets */,
 				41D872E71E1BEEE000A0C171 /* LaunchScreen.storyboard */,
@@ -109,6 +105,184 @@
 				41D872F51E1BEEE000A0C171 /* Info.plist */,
 			);
 			path = "103--baisibudejieUITests";
+			sourceTree = "<group>";
+		};
+		41D872FE1E1BF16A00A0C171 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				41D872FF1E1BF16A00A0C171 /* Essence */,
+				41D873031E1BF16A00A0C171 /* Friend */,
+				41D873071E1BF16A00A0C171 /* Me */,
+				41D8730B1E1BF16A00A0C171 /* New */,
+				41D8730F1E1BF16A00A0C171 /* Other */,
+				41D873131E1BF16A00A0C171 /* Publish */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		41D872FF1E1BF16A00A0C171 /* Essence */ = {
+			isa = PBXGroup;
+			children = (
+				41D873001E1BF16A00A0C171 /* Controller */,
+				41D873011E1BF16A00A0C171 /* Model */,
+				41D873021E1BF16A00A0C171 /* View */,
+			);
+			path = Essence;
+			sourceTree = "<group>";
+		};
+		41D873001E1BF16A00A0C171 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		41D873011E1BF16A00A0C171 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		41D873021E1BF16A00A0C171 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		41D873031E1BF16A00A0C171 /* Friend */ = {
+			isa = PBXGroup;
+			children = (
+				41D873041E1BF16A00A0C171 /* Controller */,
+				41D873051E1BF16A00A0C171 /* Model */,
+				41D873061E1BF16A00A0C171 /* View */,
+			);
+			path = Friend;
+			sourceTree = "<group>";
+		};
+		41D873041E1BF16A00A0C171 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		41D873051E1BF16A00A0C171 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		41D873061E1BF16A00A0C171 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		41D873071E1BF16A00A0C171 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				41D873081E1BF16A00A0C171 /* Controller */,
+				41D873091E1BF16A00A0C171 /* Model */,
+				41D8730A1E1BF16A00A0C171 /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		41D873081E1BF16A00A0C171 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		41D873091E1BF16A00A0C171 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		41D8730A1E1BF16A00A0C171 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		41D8730B1E1BF16A00A0C171 /* New */ = {
+			isa = PBXGroup;
+			children = (
+				41D8730C1E1BF16A00A0C171 /* Controller */,
+				41D8730D1E1BF16A00A0C171 /* Model */,
+				41D8730E1E1BF16A00A0C171 /* View */,
+			);
+			path = New;
+			sourceTree = "<group>";
+		};
+		41D8730C1E1BF16A00A0C171 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		41D8730D1E1BF16A00A0C171 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		41D8730E1E1BF16A00A0C171 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		41D8730F1E1BF16A00A0C171 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				41D873101E1BF16A00A0C171 /* AppDelegate.h */,
+				41D873111E1BF16A00A0C171 /* AppDelegate.m */,
+				41D873121E1BF16A00A0C171 /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		41D873131E1BF16A00A0C171 /* Publish */ = {
+			isa = PBXGroup;
+			children = (
+				41D873141E1BF16A00A0C171 /* Controller */,
+				41D873151E1BF16A00A0C171 /* Model */,
+				41D873161E1BF16A00A0C171 /* View */,
+			);
+			path = Publish;
+			sourceTree = "<group>";
+		};
+		41D873141E1BF16A00A0C171 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		41D873151E1BF16A00A0C171 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		41D873161E1BF16A00A0C171 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,8 +387,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41D872E11E1BEEE000A0C171 /* ViewController.m in Sources */,
-				41D872DE1E1BEEE000A0C171 /* AppDelegate.m in Sources */,
+				41D873181E1BF16A00A0C171 /* main.m in Sources */,
+				41D873171E1BF16A00A0C171 /* AppDelegate.m in Sources */,
 				41D872DB1E1BEEE000A0C171 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,6 +521,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "MP.-03--baisibudejie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -358,6 +533,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "MP.-03--baisibudejie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
